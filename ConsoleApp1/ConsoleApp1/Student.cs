@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class Student
+    public class Student
     {
+        public string Name { get; set; }
+        public string Lastname { get; set; }
+
     }
 }

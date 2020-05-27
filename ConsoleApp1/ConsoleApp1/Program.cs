@@ -10,6 +10,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            Student student = new Student { Name = "Vasya", Lastname = "Lomachenko" };
         }
     }
 }
