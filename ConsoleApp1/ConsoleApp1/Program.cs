@@ -10,9 +10,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Student s = new Student { Name = "Alex", Lastname = "Klar" };
-            System.Console.WriteLine(s.Name);
-            System.Console.WriteLine(s.Lastname);
+            for (int i = 0; i < 10; i++)
+                System.Console.WriteLine(i);
         }
     }
 }
