@@ -10,7 +10,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Student student = new Student { Name = "Vasya", Lastname = "Lomachenko" };
+            Student s = new Student { Name = "Alex", Lastname = "Klar" };
+            System.Console.WriteLine(s.Name);
+            System.Console.WriteLine(s.Lastname);
+            Student student2 = new Student { Name = "Vasya", Lastname = "Lomachenko" };
         }
     }
 }
