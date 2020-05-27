@@ -17,6 +17,7 @@ namespace ConsoleApp1
             System.Console.WriteLine(s.Name);
             System.Console.WriteLine(s.Lastname);
             Student student2 = new Student { Name = "Vasya", Lastname = "Lomachenko" };
+            Console.WriteLine("Hello world!!!");
         }
     }
 }
